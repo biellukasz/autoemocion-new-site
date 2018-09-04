@@ -1,11 +1,21 @@
+.logo {
+    height: 80px;
+}
+
 .nav-link{
     font-size: large;
     font-weight: 600;
 }
+
 .carousel-caption {
     transform: translateY(-50%);
     bottom:0;
     top:50%;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
 }
 
 .nav-link:hover {
