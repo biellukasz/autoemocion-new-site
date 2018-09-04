@@ -11,8 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
     <script src="node_modules/font-awesome/css/font-awesome.css"></script>
     <link href="style.css" rel="stylesheet">
 </head>
@@ -46,49 +45,21 @@
             </span>
         </div>
     </nav>
-
-    <!--- Image Slider -->
-    <div id="carouselExampleIndicators " class="carousel slide " data-ride="carousel ">
-        <ol class="carousel-indicators ">
-            <li data-target="#carouselExampleIndicators " data-slide-to="0 " class="active "></li>
-            <li data-target="#carouselExampleIndicators " data-slide-to="1 "></li>
-            <li data-target="#carouselExampleIndicators " data-slide-to="2 "></li>
-        </ol>
-        <div class="carousel-inner " role="listbox ">
-            <div class="carousel-item active ">
-                <img class="d-block img-fluid " style="filter: brightness(50%); -webkit-filter: brightness(65%);
-                " src="img/slider2.png " alt="First slide ">
-                <div class="carousel-caption d-none d-md-block ">
-                    <h1>
-                        Twój dealer samochodów używanych
-                    </h1>
-                    <h3>Samochody z Gwarancją!</h3>
-                    <button type="button " class="btn btn-danger btn-lg rounded ">
-                        Oferta
-                    </button>
-                </div>
-            </div>
+    <nav class="submenu">
+        <div class="submenu__wrapper">
+            <p>Komis samochodowy</p>
+            <p>Auto detailing</p>
         </div>
-        <a class="carousel-control-prev " href="#carouselExampleIndicators " role="button " data-slide="prev ">
-            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
-            <span class="sr-only ">Previous</span>
-        </a>
-        <a class="carousel-control-next " href="#carouselExampleIndicators " role="button " data-slide="next ">
-            <span class="carousel-control-next-icon " aria-hidden="true "></span>
-            <span class="sr-only ">Next</span>
-        </a>
-    </div>
+    </nav>
+    <!-- hero image -->
+    <section class="heroImage jumbotron">
+        <h2 class="text-center">Twój dealer samochodów używanych</h2>
+        <p class="text-center">Niezawodna gwarancja i satysfakcja</p>
+        <button>Sprawdź ofertę</button>
+    </section>
 
-    <!--- Jumbotron -->
-    <div class="container ">
-        <div class="col ">
-            <h1>
-                Komis samochodowy Myślenice
-            </h1>
-        </div>
-    </div>
-    <section class="aboutUs">
-        <h2>
+    <section class="aboutUs justify-content-center">
+        <h2 class="text-center">
             Krótko o nas
         </h2>
         <p>Firma <b>AutoEmocion</b> to komis samochodowy w myślenicach z usługami auto detalingu</p>
@@ -113,6 +84,7 @@
             </div>
         </div>
         <div class="offer">
+            <h2 class="text-center">Oferta</h2>
             <p>
                 Komis samochodowy
             </p>
@@ -160,7 +132,7 @@
     </section>
     <section class="opinion">
         <div>
-            <h2>Opinie</h2>
+            <h2 class="text-center">Opinie</h2>
             <div>
                 <p>Jestem bardzo zadowolona z usług firmy Auto Emocion</p>
                 <p>Mój samochód wygląda jak nowy</p>
@@ -188,6 +160,8 @@
             </p>
         </div>
     </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>
