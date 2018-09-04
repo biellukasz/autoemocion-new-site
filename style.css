@@ -59,8 +59,20 @@
     font-size: 25px;
 }
 
+
+.statistics p {
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    
+}
+
 section {
     padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .offer {
@@ -69,4 +81,38 @@ section {
 
 .jumbotron.heroImage {
     margin-bottom: 0;
+}
+
+.btn-wrapper {
+    margin-top: 20px;
+}
+
+.opinion blockquote {
+    border: 1px solid rgba(0, 0, 0, 0.2 );
+    max-width: 500px;
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.short-info {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.benefits-list {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.benefits-list li {
+    padding: 5px 10px;
+}
+
+.benefits {
+    margin-top: 30px;
 }
