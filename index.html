@@ -9,39 +9,51 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+    -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-
-    <script src="node_modules/font-awesome/css/font-awesome.css"></script>
     <link href="style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center sticky-top">
-        <a href="/" class="navbar-brand d-flex w-50 justify-content-center"><img src="img/logo.png" class="logo" /> </a>
+        <a href="/" class="navbar-brand d-flex w-50 justify-content-center">
+            <img src="img/logo.png" class="logo" />
+        </a>
         <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#collapsingNavbar ">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100 " id="collapsingNavbar ">
             <ul class="navbar-nav w-100 justify-content-center ">
                 <li class="nav-item active ">
-                    <a class="nav-link " href="# ">Start</a>
+                    <a class="nav-link " href="# ">
+                        Start
+                    </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">O nas</a>
+                    <a class="nav-link " href="# ">
+                        O nas
+                    </a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="# ">Oferta</a>
+                <li class="nav-item">
+                    <a class="nav-link " href="# ">
+                        Oferta
+                    </a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="# ">Kontakt</a>
+                <li class="nav-item">
+                    <a class="nav-link " href="# ">
+                        Kontakt
+                    </a>
                 </li>
             </ul>
             <span class="navbar-text ml-auto w-100 justify-content-center">
                 <i class="fas fa-mobile-alt "></i>
-                <a href="tel:555-555-5555 ">555-555-5555</a>
+                <a href="tel:555-555-5555 ">
+                    555-555-5555
+                </a>
             </span>
         </div>
     </nav>
@@ -59,7 +71,7 @@
         <p>
             Niezawodna gwarancja i satysfakcja
         </p>
-        <button class="btn btn-danger">
+        <button class="btn btn-gradient btn-round-big btn-lg">
             Sprawdź ofertę
         </button>
     </section>
@@ -113,13 +125,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <h3>Zajmujemy się szeroko pojętym Auto detailingiem</h3>
-                    <ul>
-                        <li>Mycie zewnętrzne</li>
-                        <li>Pranie i konserwacja wnętrz</li>
-                        <li>Zabiegi lakiernicze</li>
-                        <li>Renowacja reflektorów</li>
-                        <li>Renowacja lakieru</li>
+                    <h3>
+                        Zajmujemy się szeroko pojętym Auto detailingiem
+                    </h3>
+                    <ul class="whatWeDo">
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Mycie zewnętrzne
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Pranie i konserwacja wnętrz
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Zabiegi lakiernicze
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Renowacja reflektorów
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Renowacja lakieru
+                        </li>
                     </ul>
                 </div>
                 <div class="col-sm benefits">
@@ -163,7 +192,7 @@
                                 </p>
                             </div>
                             <div class="col">
-                                <button class="btn">
+                                <button class="btn btn-round btn-pink">
                                     Cennik
                                 </button>
                             </div>
@@ -172,8 +201,9 @@
                 </div>
             </div>
             <div class="text-center btn-wrapper">
-                <button class="btn">
+                <button class="btn btn-round btn-transparent">
                     Pokaż więcej
+                    <i class="fas fa-chevron-down fa-xs"></i>
                 </button>
             </div>
         </div>
@@ -192,28 +222,32 @@
             </div>
         </div>
     </section>
-    <section class="contact container">
+    <section class="contact container-fluid">
         <div class="row">
-            <div class="col">
-                <h2>
-                    Kontakt
-                </h2>
-                <ul>
-                    <li>
-                        ul Kazimierza Wielkiego 195A 32-400 Myślenice
-                    </li>
-                    <li>
-                        +48663116116
-                    </li>
-                    <li>
-                        info@autoemocion.pl
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <div>
-                    There is a space for map
+            <div class="col-md contact-info">
+                <div class="container">
+                    <h2>
+                        Kontakt
+                    </h2>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            ul Kazimierza Wielkiego 195A 32-400 Myślenice
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            +48663116116
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open"></i>
+                            info@autoemocion.pl
+                        </li>
+                    </ul>
                 </div>
+            </div>
+            <div class="col-md map-responsive">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </section>
