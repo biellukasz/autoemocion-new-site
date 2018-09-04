@@ -16,11 +16,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center sticky-top">
+
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
         <a href="/" class="navbar-brand d-flex w-50 justify-content-center">
             <img src="img/logo.png" class="logo" />
         </a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#collapsingNavbar ">
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100 " id="collapsingNavbar ">
@@ -47,7 +48,7 @@
                 </li>
             </ul>
             <span class="navbar-text ml-auto w-100 justify-content-center">
-                <i class="fas fa-mobile-alt "></i>
+                <i class="fas fa-mobile-alt"></i>
                 <a href="tel:555-555-5555 ">
                     555-555-5555
                 </a>
@@ -56,15 +57,16 @@
     </nav>
     <nav class="submenu">
         <div class="submenu-wrapper">
-            <a href="">
+            <a href="#" id="autokomis">
                 Komis samochodowy
             </a>
             <span>/</span>
-            <a href="">
+            <a href="#" id="autodetailing">
                 Auto detailing
             </a>
         </div>
     </nav>
+    <div id="target"></div><!-- todo  remove -->
     <!-- hero image -->
     <section class="heroImage jumbotron text-center">
         <h2>
@@ -114,159 +116,78 @@
     </section>
 
     <section class="offer container-fluid" id="offer">
-        <h2 class="text-center">Oferta</h2>
-        <div class="text-center">
+        <h2 class="text-center">
+            Oferta
+        </h2>
+        <div class="text-center offer-menu">
             <i class="fas fa-car"></i>
             <span>
-                Komis samochodowy
+                <a href="#" id="offer-menu-komis">
+                    Komis samochodowy
+                </a>
             </span>
+            <span>/</span>
             <i class="fas fa-eye"></i>
             <span>
-                Auto detailing
+                <a href="#" id="offer-menu-autodetailing">
+                    Auto detailing
+                </a>
             </span>
         </div>
         <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <h3>
-                        Zajmujemy się szeroko pojętym Auto detailingiem
-                    </h3>
-                    <ul class="whatWeDo">
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Mycie zewnętrzne
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Pranie i konserwacja wnętrz
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Zabiegi lakiernicze
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Renowacja reflektorów
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Renowacja lakieru
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-7 benefits">
-                    <h3>
-                        Nasze zalety
-                    </h3>
-                    <ul class="benefits-list">
-                        <li>
-                            <div>
-                                <div class="benefit-wrapper">
-                                    <i class="fas fa-trophy"></i>
-                                </div>
-                                <b>Profesjonalizm</b>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <div class="benefit-wrapper">
-                                    <i class="fas fa-clock"></i>
+        <div class="container" id="offer-target">
 
-                                </div>
-                                <b>Terminowość</b>
-                                <p>
-                                    Ad neque dignissimos voluptate.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <div class="benefit-wrapper">
-                                    <i class="fas fa-smile"></i>
-                                </div>
-                                <b>Satysfakcja</b>
-                                <p>
-                                    Fugiat voluptate enim, veritatis eos.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div>
-                        <div class="row">
-                            <div class="col">
-                                <h3>
-                                    Cennik usług
-                                </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet
-                                </p>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-round btn-pink">
-                                    Cennik
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center btn-wrapper">
-                <button class="btn btn-round btn-transparent">
-                    Pokaż więcej
-                    <i class="fas fa-chevron-down fa-xs"></i>
-                </button>
-            </div>
         </div>
     </section>
 
-    <section class="opinion container">
+    <section class="opinion container ">
         <div>
-            <h2 class="text-center">
+            <h2 class="text-center ">
                 Opinie
             </h2>
-            <div class="opinionWrapper">
+            <div class="opinionWrapper ">
                 <blockquote>
-                    <p>Jestem bardzo zadowolona z usług firmy Auto Emocion</p>
-                    <p>Mój samochód wygląda jak nowy</p>
+                    <p>
+                        Jestem bardzo zadowolona z usług firmy Auto Emocion
+                    </p>
+                    <p>
+                        Mój samochód wygląda jak nowy
+                    </p>
                 </blockquote>
             </div>
         </div>
     </section>
-    <section class="contact container-fluid" id="contact">
-        <div class="row">
-            <div class="col-md contact-info">
-                <div class="contact-info-img"></div>
-                <div class="container">
+    <section class="contact container-fluid " id="contact ">
+        <div class="row ">
+            <div class="col-md contact-info ">
+                <div class="contact-info-img "></div>
+                <div class="container ">
                     <h2>
                         Kontakt
                     </h2>
-                    <ul class="contact-list">
+                    <ul class="contact-list ">
                         <li>
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt "></i>
                             ul Kazimierza Wielkiego 195A 32-400 Myślenice
                         </li>
                         <li>
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-mobile-alt "></i>
                             +48663116116
                         </li>
                         <li>
-                            <i class="fas fa-envelope-open"></i>
+                            <i class="fas fa-envelope-open "></i>
                             info@autoemocion.pl
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-7 map-responsive">
-                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
+            <div class="col-md-7 map-responsive ">
+                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q "
                     allowfullscreen></iframe> -->
             </div>
         </div>
     </section>
-    <footer class="footer container">
+    <footer class="footer container ">
         <div>
             <p>
                 2018 Auto emocion Wszelkie prawa zastrzeżone
@@ -276,8 +197,9 @@
             </p>
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js "></script>
+    <script src="js/index.js "></script>
 </body>
 
 </html>
