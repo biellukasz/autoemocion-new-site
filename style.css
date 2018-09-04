@@ -18,7 +18,7 @@
 }
 
 .submenu {
-    background-color: lightgrey;
+    background-color: rgb(219, 220, 225);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,4 +57,16 @@
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     font-size: 25px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.offer {
+    background-color: rgb(248, 248, 248);
+}
+
+.jumbotron.heroImage {
+    margin-bottom: 0;
 }
