@@ -13,12 +13,9 @@
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
 <body>
-
-    <!-- Navigation -->
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center sticky-top">
         <a href="/" class="navbar-brand d-flex w-50 justify-content-center">
             <img src="img/logo.png" class="logo" />
@@ -34,17 +31,17 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">
+                    <a class="nav-link " href="#aboutUs">
                         O nas
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="# ">
+                    <a class="nav-link " href="#offer">
                         Oferta
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="# ">
+                    <a class="nav-link " href="#contact">
                         Kontakt
                     </a>
                 </li>
@@ -58,9 +55,14 @@
         </div>
     </nav>
     <nav class="submenu">
-        <div class="submenu__wrapper">
-            <p>Komis samochodowy</p>
-            <p>Auto detailing</p>
+        <div class="submenu-wrapper">
+            <a href="">
+                Komis samochodowy
+            </a>
+            <span>/</span>
+            <a href="">
+                Auto detailing
+            </a>
         </div>
     </nav>
     <!-- hero image -->
@@ -76,7 +78,7 @@
         </button>
     </section>
 
-    <section class="aboutUs justify-content-center container">
+    <section class="aboutUs justify-content-center container" id="aboutUs">
         <h2 class="text-center">
             Krótko o nas
         </h2>
@@ -111,7 +113,7 @@
         </div>
     </section>
 
-    <section class="offer container-fluid">
+    <section class="offer container-fluid" id="offer">
         <h2 class="text-center">Oferta</h2>
         <div class="text-center">
             <i class="fas fa-car"></i>
@@ -234,7 +236,7 @@
             </div>
         </div>
     </section>
-    <section class="contact container-fluid">
+    <section class="contact container-fluid" id="contact">
         <div class="row">
             <div class="col-md contact-info">
                 <div class="contact-info-img"></div>

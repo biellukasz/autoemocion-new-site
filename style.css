@@ -25,16 +25,17 @@
     height: 60px;
 }
 
-.submenu__wrapper {
-    display: flex;
+.submenu-wrapper a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
 }
 
-.submenu__wrapper p {
-    margin-top: 16px;
-}
-
-.submenu_wrapper p:before {
-    content: '/'
+.submenu-wrapper a:active,
+.submenu-wrapper a:focus {
+    color: black;
 }
 
 .heroImage {
