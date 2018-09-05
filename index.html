@@ -9,95 +9,203 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+    -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="node_modules/font-awesome/css/font-awesome.css"></script>
     <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center sticky-top">
-        <a href="/" class="navbar-brand d-flex w-50 justify-content-center"><img style="max-height: 80px" src="img/logo.png"
-            /> </a>
+    <nav class="navbar navbar-light navbar-expand-md bg-faded container">
+        <a href="/" class="navbar-brand">
+            <img src="img/logo.png" class="logo" />
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
             <ul class="navbar-nav w-100 justify-content-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Start</a>
+                    <a class="nav-link" href="#">
+                        Start
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O nas</a>
+                    <a class="nav-link" href="#aboutUs">
+                        O nas
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Oferta</a>
+                    <a class="nav-link" href="#offer">
+                        Oferta
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="#contact">
+                        Kontakt
+                    </a>
                 </li>
             </ul>
-            <span class="navbar-text ml-auto w-100 justify-content-center" style="color: dodgerblue">
-                <i class="fas fa-mobile-alt"></i>
-                <a href="tel:555-555-5555" style="color:dodgerblue;">555-555-5555</a>
-            </span>
         </div>
+        <span class="phone-number">
+            <i class="fas fa-mobile-alt"></i>
+            <a href="tel:555-555-5555">
+                <b class="blue">555-555-5555</b>
+            </a>
+        </span>
     </nav>
 
-
-
-    <!--- Image Slider -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img class="d-block img-fluid" style="filter: brightness(50%);
--webkit-filter: brightness(65%);" src="img/slider2.png" alt="First slide">
-
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Twój dealer samochodów <br>używanych</h1><br>
-                    <h3>Samochody z Gwarancją!</h3><br><br><br><br>
-                    <button type="button" class="btn btn-danger btn-lg rounded">Oferta</button>
-
-                </div>
-
+    <nav class="submenu">
+        <div class="submenu-wrapper">
+            <a href="#" id="autokomis">
+                Komis samochodowy
+            </a>
+            <span>/</span>
+            <a href="#" id="autodetailing">
+                Auto detailing
+            </a>
+        </div>
+    </nav>
+    <div id="target"></div>
+    <!-- hero image -->
+    <section class="heroImage jumbotron text-center">
+        <h2>
+            Twój dealer samochodów używanych
+        </h2>
+        <p>
+            Niezawodna gwarancja i satysfakcja
+        </p>
+        <button class="btn btn-gradient btn-round-big btn-lg">
+            Sprawdź ofertę
+        </button>
+    </section>
+    <section class="aboutUs justify-content-center container" id="aboutUs">
+        <h2 class="text-center">
+            Krótko o nas
+        </h2>
+        <p class="text-center short-info">
+            Firma <b class="blue">AutoEmocion</b> to komis samochodowy w Myślenicach z usługami auto detalingu
+        </p>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati voluptatibus tempore? Perferendis est harum aperiam
+                    quasi neque, quam eius enim quibusdam necessitatibus cum saepe eum ipsam maxime. Nihil, ducimus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati voluptatibus tempore? Perferendis est harum aperiam
+                    quasi neque, quam eius enim quibusdam necessitatibus cum saepe eum ipsam maxime. Nihil, ducimus.
+                </p>
             </div>
-            <!--<div class="carousel-item">-->
-            <!--<img class="d-block img-fluid" src="img/slider.jpg" alt="Second slide">-->
-            <!--</div>-->
-            <!--<div class="carousel-item">-->
-            <!--<img class="d-block img-fluid" src="img/slider.jpg" alt="Third slide">-->
-            <!--</div>-->
+            <div class="col-md statistics">
+                <div class="d-flex flex-wrap">
+                    <div class="statistics-item">
+                        <p class="big-number">241</p> sprzedanych aut
+                    </div>
+                    <div class="statistics-item">
+                        <p class="big-number">119</p> Wesołych klientów
+                    </div>
+                    <div class="statistics-item">
+                        <p class="big-number">686</p> Detalingów
+                    </div>
+                    <div class="statistics-item">
+                        <p class="big-number green">Tak</p> - wolne terminy
+                    </div>
+                </div>
+            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+    </section>
 
-    <!--- Jumbotron -->
-    <div class="container">
-        <div class="col">
-            <h1> Komis samochodowy Myślenice</h1>
+    <section class="offer container-fluid" id="offer">
+        <h2 class="text-center">
+            Oferta
+        </h2>
+        <div class="text-center offer-menu">
+            <i class="fas fa-car"></i>
+            <span>
+                <a href="#" id="offer-menu-komis">
+                    Komis samochodowy
+                </a>
+            </span>
+            <span>/</span>
+            <i class="fas fa-eye"></i>
+            <span>
+                <a href="#" id="offer-menu-autodetailing">
+                    Auto detailing
+                </a>
+            </span>
         </div>
-    </div>
+        <hr>
+        <div class="container" id="offer-target">
 
+        </div>
+    </section>
 
-    <!--- Footer -->
+    <section class="opinion container">
+        <div>
+            <h2 class="text-center">
+                Opinie
+            </h2>
+            <div class="opinion-wrapper">
+                <blockquote class="text-center">
+                    <p>
+                        Jestem bardzo zadowolona z usług firmy Auto Emocion
+                    </p>
+                    <p>
+                        Mój samochód wygląda jak nowy
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
 
-
+    <section class="contact container-fluid" id="contact">
+        <div class="row">
+            <div class="col-md contact-info">
+                <div class="container">
+                    <h2>
+                        Kontakt
+                    </h2>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            ul Kazimierza Wielkiego 195A 32-400 Myślenice
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            +48663116116
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open"></i>
+                            info@autoemocion.pl
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-7 map-responsive">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footer container d-flex">
+        <p>
+            2018 <span class="red">Auto emocion </span> Wszelkie prawa zastrzeżone
+        </p>
+        <a href="privacy.html">
+            Polityka prywatności
+        </a>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
