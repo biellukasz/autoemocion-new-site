@@ -445,3 +445,26 @@ section {
         background-color: rgb(235, 249, 234);
     }
 }
+
+.what-is-autodetailing h2 {
+    margin-bottom: 30px;
+}
+
+.services-list-info li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.services-list-info li:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.services-list-info li a {
+    color: black;
+    text-decoration: none;
+}
