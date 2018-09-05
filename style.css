@@ -407,15 +407,16 @@ section {
 }
 
 .services-list h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .services-list .icon-wrap {
     margin-right: 15px;
     float: left;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,4 +425,23 @@ section {
 
 .services-list .fa-check {
     color: green;
+}
+
+.services-list li {
+    margin-top: 15px;
+}
+
+@media(max-width: 992px) {
+    .services-list .icon-wrap {
+        margin-right: 15px;
+        float: left;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(235, 249, 234);
+    }
 }
