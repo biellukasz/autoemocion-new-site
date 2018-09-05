@@ -310,3 +310,57 @@ section {
 .blue {
     color: rgb(29, 122, 253);
 }
+
+@media(min-width: 992px) {
+    .offer-wrapper {
+        max-width: calc(50% - 15px);
+        align-items: flex-end;
+        margin-left: 15px;
+    }
+}
+
+.offer-wrapper {
+    padding: 0;
+    height: 170px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2 );
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.offer-img {
+    max-width: 50%;
+    height: 100%;
+
+}
+
+.offer-text {
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.offer-name {
+    float: left;
+    font-size: 1.2rem;
+}
+
+.offer-price {
+    float: right;
+    margin-bottom: 0;
+}
+
+.offer-car-info {
+    clear: both;
+}
+
+.offer-hyperlink {
+    color: rgb(238,49,56);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offer-hyperlink:active, 
+.offer-hyperlink:focus {
+    color: rgb(238,49,56);
+} 
