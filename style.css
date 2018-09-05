@@ -406,7 +406,13 @@ section {
     list-style-type: none;
 }
 
+.services-list h3 {
+    font-size: 1.2rem;
+}
+
 .services-list .icon-wrap {
+    margin-right: 15px;
+    float: left;
     height: 50px;
     width: 50px;
     border-radius: 50%;
