@@ -17,40 +17,42 @@
 
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-        <a href="/" class="navbar-brand d-flex w-50 justify-content-center">
+    <nav class="navbar navbar-light navbar-expand-md bg-faded    container">
+        <a href="/" class="navbar-brand">
             <img src="img/logo.png" class="logo" />
         </a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#collapsingNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse w-100 " id="collapsingNavbar ">
-            <ul class="navbar-nav w-100 justify-content-center ">
-                <li class="nav-item active ">
-                    <a class="nav-link " href="# ">
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
                         Start
                     </a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="#aboutUs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutUs">
                         O nas
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#offer">
+                    <a class="nav-link" href="#offer">
                         Oferta
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#contact">
+                    <a class="nav-link" href="#contact">
                         Kontakt
                     </a>
                 </li>
             </ul>
-            <span class="navbar-text ml-auto w-100 justify-content-center">
+            <span class="navbar-text w-100">
                 <i class="fas fa-mobile-alt"></i>
-                <a href="tel:555-555-5555 ">
-                    555-555-5555
+                <a href="tel:555-555-5555">
+                    <span class="blue">
+                        <b>555-555-5555</b>
+                    </span>
                 </a>
             </span>
         </div>
@@ -84,7 +86,9 @@
         <h2 class="text-center">
             Krótko o nas
         </h2>
-        <p class="text-center short-info">Firma <b>AutoEmocion</b> to komis samochodowy w myślenicach z usługami auto detalingu</p>
+        <p class="text-center short-info">
+            Firma <b class="blue">AutoEmocion</b> to komis samochodowy w myślenicach z usługami auto detalingu
+        </p>
         <div class="row">
             <div class="col-md-8">
                 <p>
@@ -140,13 +144,13 @@
         </div>
     </section>
 
-    <section class="opinion container ">
+    <section class="opinion container">
         <div>
-            <h2 class="text-center ">
+            <h2 class="text-center">
                 Opinie
             </h2>
-            <div class="opinionWrapper ">
-                <blockquote>
+            <div class="opinion-wrapper">
+                <blockquote class="text-center">
                     <p>
                         Jestem bardzo zadowolona z usług firmy Auto Emocion
                     </p>
@@ -157,49 +161,47 @@
             </div>
         </div>
     </section>
-    <section class="contact container-fluid " id="contact ">
-        <div class="row ">
-            <div class="col-md contact-info ">
-                <div class="contact-info-img "></div>
-                <div class="container ">
+
+    <section class="contact container-fluid" id="contact">
+        <div class="row">
+            <div class="col-md contact-info">
+                <div class="container">
                     <h2>
                         Kontakt
                     </h2>
-                    <ul class="contact-list ">
+                    <ul class="contact-list">
                         <li>
-                            <i class="fas fa-map-marker-alt "></i>
+                            <i class="fas fa-map-marker-alt"></i>
                             ul Kazimierza Wielkiego 195A 32-400 Myślenice
                         </li>
                         <li>
-                            <i class="fas fa-mobile-alt "></i>
+                            <i class="fas fa-mobile-alt"></i>
                             +48663116116
                         </li>
                         <li>
-                            <i class="fas fa-envelope-open "></i>
+                            <i class="fas fa-envelope-open"></i>
                             info@autoemocion.pl
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-7 map-responsive ">
-                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q "
+            <div class="col-md-7 map-responsive">
+                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
                     allowfullscreen></iframe> -->
             </div>
         </div>
     </section>
-    <footer class="footer container ">
-        <div>
-            <p>
-                2018 Auto emocion Wszelkie prawa zastrzeżone
-            </p>
-            <p>
-                Polityka prywatności
-            </p>
-        </div>
+    <footer class="footer container d-flex">
+        <p>
+            2018 <span class="red">Auto emocion </span> Wszelkie prawa zastrzeżone
+        </p>
+        <a href="privacy.html">
+            Polityka prywatności
+        </a>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.js "></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js "></script>
-    <script src="js/index.js "></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
