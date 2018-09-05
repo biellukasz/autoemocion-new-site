@@ -2,7 +2,7 @@
     background-color: #fff;
 }
 
-.logo {
+.navbar-brand .logo {
     height: 60px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 @media(min-width: 768px) {
-    .nav-link:hover:after  {
+    .nav-link:hover:after {
         content: '';
         display: inline;
         position: absolute;
@@ -40,8 +40,7 @@
     text-decoration: none;
 }
 
-.submenu-wrapper a:active,
-.submenu-wrapper a:focus {
+.submenu-wrapper a:active, .submenu-wrapper a:focus {
     color: black;
 }
 
@@ -67,7 +66,6 @@
     font-size: 25px;
 }
 
-
 .statistics-item {
     width: 50%;
     height: 100px;
@@ -75,7 +73,6 @@
     align-items: flex-start;
     padding: 10px 15px;
     flex-direction: column;
-    
 }
 
 .statistics-item p {
@@ -83,7 +80,7 @@
 }
 
 .green {
-    color: rgb(50, 188 ,69);
+    color: rgb(50, 188, 69);
 }
 
 section {
@@ -116,17 +113,22 @@ section {
 }
 
 .btn-gradient {
-    background: rgb(238,49,56); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(238,49,56,1) 0%, rgba(241,98,102,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(238,49,56,1) 0%,rgba(241,98,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(238,49,56,1) 0%,rgba(241,98,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3138', endColorstr='#f16266',GradientType=1 ); /* IE6-9 */
+    background: rgb(238, 49, 56);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3138', endColorstr='#f16266', GradientType=1);
+    /* IE6-9 */
     color: white;
     transition: 0.3s ease;
 }
 
 .btn-gradient:hover {
-    background-color:  rgba(238,49,56,1);
+    background-color: rgba(238, 49, 56, 1);
 }
 
 .btn-pink {
@@ -160,7 +162,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 15px;
-    border: 1px solid rgba(0, 0, 0, 0.2 );
+    border: 1px solid rgba(0, 0, 0, 0.2);
     max-width: 500px;
     padding-top: 40px;
     font-size: 20px;
@@ -172,10 +174,10 @@ section {
     display: inline;
     font-size: 38px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* - todo - find better font */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* - todo - find better font */
     top: 0;
 }
-
 
 .opinion blockquote p {
     margin-bottom: 10px;
@@ -230,7 +232,7 @@ section {
     color: white;
     z-index: 9999;
     position: relative;
-    background-color: rgb(238,49,56);
+    background-color: rgb(238, 49, 56);
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -247,19 +249,20 @@ section {
 }
 
 /* https://www.ostraining.com/blog/coding/responsive-google-maps/ */
-.map-responsive{
-    overflow:hidden;
+
+.map-responsive {
+    overflow: hidden;
     padding-bottom: 400px;
-    position:relative;
-    height:0;
+    position: relative;
+    height: 0;
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .benefit-wrapper {
@@ -273,10 +276,8 @@ section {
     margin-bottom: 10px;
 }
 
-.fa-trophy, 
-.fa-clock, 
-.fa-smile {
-    color: rgb(238,49,56);
+.fa-trophy, .fa-clock, .fa-smile {
+    color: rgb(238, 49, 56);
 }
 
 .big-number {
@@ -290,8 +291,7 @@ section {
     color: grey;
 }
 
-.offer-menu a:active,
-.offer-menu a:focus {
+.offer-menu a:active, .offer-menu a:focus {
     color: black;
 }
 
@@ -304,7 +304,7 @@ section {
 }
 
 .red {
-    color: rgb(238,49,56);
+    color: rgb(238, 49, 56);
 }
 
 .blue {
@@ -323,7 +323,7 @@ section {
     padding: 0;
     height: 170px;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.2 );
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -331,7 +331,6 @@ section {
 .offer-img {
     max-width: 50%;
     height: 100%;
-
 }
 
 .offer-text {
@@ -355,12 +354,20 @@ section {
 }
 
 .offer-hyperlink {
-    color: rgb(238,49,56);
+    color: rgb(238, 49, 56);
     text-decoration: none;
     font-weight: bold;
 }
 
-.offer-hyperlink:active, 
-.offer-hyperlink:focus {
-    color: rgb(238,49,56);
-} 
+.offer-hyperlink:active, .offer-hyperlink:focus {
+    color: rgb(238, 49, 56);
+}
+
+@media (max-width: 576px) {
+    .navbar-toggler {
+        order: 1;
+    }
+    .navbar-brand .logo {
+        height: 40px;
+    }
+}
