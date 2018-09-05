@@ -23,10 +23,16 @@
 
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-md bg-faded container">
+    <nav class="navbar navbar-light navbar-expand-lg bg-faded container">
         <a href="/" class="navbar-brand">
             <img src="img/logo.png" class="logo" />
         </a>
+        <span class="phone-number">
+            <i class="fas fa-mobile-alt"></i>
+            <a href="tel:555-555-5555">
+                <b class="blue">555-555-5555</b>
+            </a>
+        </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,12 +65,6 @@
                 </li>
             </ul>
         </div>
-        <span class="phone-number">
-            <i class="fas fa-mobile-alt"></i>
-            <a href="tel:555-555-5555">
-                <b class="blue">555-555-5555</b>
-            </a>
-        </span>
     </nav>
     <nav class="submenu">
         <div class="submenu-wrapper">

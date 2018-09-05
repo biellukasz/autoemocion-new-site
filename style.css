@@ -14,6 +14,9 @@
 }
 
 @media(min-width: 768px) {
+    h2.text-center {
+        margin-bottom: 30px;
+    }
     .nav-link:hover:after {
         content: '';
         display: inline;
@@ -46,9 +49,9 @@
 
 .heroImage {
     background-image: url('img/slider2_small.png');
-    background-position: 0 -296px;
-    /* background-size: cover; */
+    background-position: 0 -250px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .heroImage h2 {
@@ -130,6 +133,22 @@ section {
     background: -webkit-linear-gradient(left, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3138', endColorstr='#f16266', GradientType=1);
+    /* IE6-9 */
+    color: white;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.btn-gradient:hover {
+    background: rgb(241, 98, 102, 1);
+    /* Old browsers */
+    background: -moz-linear-gradient(right, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left, rgba(238, 49, 56, 1) 0%, rgba(241, 98, 102, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3138', endColorstr='#f16266', GradientType=1);
     /* IE6-9 */
@@ -370,10 +389,7 @@ section {
     color: rgb(238, 49, 56);
 }
 
-@media (max-width: 576px) {
-    .navbar-toggler {
-        order: 1;
-    }
+@media (max-width: 768px) {
     .navbar-brand .logo {
         height: 40px;
     }
@@ -397,6 +413,9 @@ section {
 
 .gallery-images img {
     height: 200px;
+}
+
+.gallery-images img:not(:first-child) {
     margin-top: 15px;
 }
 
@@ -433,10 +452,6 @@ section {
     color: green;
 }
 
-.services-list li {
-    margin-top: 15px;
-}
-
 @media(max-width: 992px) {
     .services-list .icon-wrap {
         margin-right: 15px;
@@ -454,6 +469,11 @@ section {
 
 .what-is-autodetailing h2 {
     margin-bottom: 30px;
+}
+
+.services-list-info {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services-list-info li {
@@ -532,4 +552,19 @@ section {
     text-align: right;
     z-index: 2;
     text-align: left;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.phone-number {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@media(min-width: 992px) {
+    .phone-number {
+        order: 1;
+    }
 }
