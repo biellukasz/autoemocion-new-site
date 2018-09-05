@@ -125,6 +125,7 @@ section {
     /* IE6-9 */
     color: white;
     transition: 0.3s ease;
+    border: none;
 }
 
 .btn-gradient:hover {
@@ -371,3 +372,21 @@ section {
         height: 40px;
     }
 }
+
+.img-background {
+    background-image: url('./img/audi-audi-r8-auto-533562.jpg');
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: center;
+}
+
+.img-background p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.what-is-autodetailing {}
