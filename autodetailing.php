@@ -3,7 +3,7 @@
 ?>
     <section class="what-is-autodetailing container">
         <h2 class="text-center">
-            Co to jest <span class="red"><b>Autodetailing</b></span>
+        Co to jest <span class="red">Autodetailing</span>
         </h2>
         <div class="row">
             <div class="col-sm-6">
@@ -284,6 +284,7 @@
             </li>
         </ul>
     </section>
+    <hr>
 <?php 
     include 'footer.php'
 ?>

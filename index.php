@@ -4,7 +4,7 @@
     
     <div id="target"></div>
     <!-- hero image -->
-    <section class="heroImage jumbotron text-center">
+    <section class="hero-image jumbotron text-center">
         <h2>
             Twój dealer samochodów używanych
         </h2>
