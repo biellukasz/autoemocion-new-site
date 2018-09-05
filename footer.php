@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="col-md-7 map-responsive">
-                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
-                    allowfullscreen></iframe> -->
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </section>
