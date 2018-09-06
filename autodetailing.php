@@ -1,69 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Autoemocion - Komis samochodowy Myślenice</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    -->
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link href="./../style.css" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-</head>
-
-<body>
-
-    <nav class="navbar navbar-light navbar-expand-md bg-faded container">
-        <a href="/" class="navbar-brand">
-            <img src="img/logo.png" class="logo" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="collapsingNavbar">
-            <ul class="navbar-nav w-100 justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                        Start
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutUs">
-                        O nas
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#offer">
-                        Oferta
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">
-                        Kontakt
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <span class="phone-number">
-            <i class="fas fa-mobile-alt"></i>
-            <a href="tel:555-555-5555">
-                <b class="blue">555-555-5555</b>
-            </a>
-        </span>
-    </nav>
+<?php 
+    include 'header.php'; 
+?>
     <section class="what-is-autodetailing container">
         <h2 class="text-center">
-            Co to jest <span class="red"><b>Autodetailing</b></span>
+        Co to jest <span class="red">Autodetailing</span>
         </h2>
         <div class="row">
             <div class="col-sm-6">
@@ -345,64 +285,6 @@
         </ul>
     </section>
     <hr>
-    <section class="opinion container">
-        <div>
-            <h2 class="text-center">
-                Opinie
-            </h2>
-            <div class="opinion-wrapper">
-                <blockquote class="text-center">
-                    <p>
-                        Jestem bardzo zadowolona z usług firmy Auto Emocion
-                    </p>
-                    <p>
-                        Mój samochód wygląda jak nowy
-                    </p>
-                </blockquote>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact container-fluid" id="contact">
-        <div class="row">
-            <div class="col-md contact-info">
-                <div class="container">
-                    <h2>
-                        Kontakt
-                    </h2>
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            ul Kazimierza Wielkiego 195A 32-400 Myślenice
-                        </li>
-                        <li>
-                            <i class="fas fa-mobile-alt"></i>
-                            +48663116116
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope-open"></i>
-                            info@autoemocion.pl
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-7 map-responsive">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL0lYhR5sFkcRgiXHaPKa7S0&key=AIzaSyB8B21_A2y2Pnlrl7nFVEyoE9uYrM7SV7Q"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-    <footer class="footer container d-flex">
-        <p>
-            2018 <span class="red">Auto emocion </span> Wszelkie prawa zastrzeżone
-        </p>
-        <a href="privacy.html">
-            Polityka prywatności
-        </a>
-    </footer>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="js/index.js"></script>
-</body>
-
-</html>
+<?php 
+    include 'footer.php'
+?>
